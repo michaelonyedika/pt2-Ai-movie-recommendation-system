@@ -9,8 +9,8 @@ st.title('Movie Recommendation System')
 # similarity_file = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\similarity.pkl"
 
 
-movie_df = pickle.load(open(movies_data.pkl, 'rb'))
-similarity = pickle.load(open(similarity.pkl, 'rb'))
+movie_df = pickle.load(open('movies_data.pkl', 'rb'))
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 list_of_movie = np.array(movie_df['title'])
 
 option = st.selectbox(
