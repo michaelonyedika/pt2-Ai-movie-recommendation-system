@@ -6,11 +6,11 @@ import numpy as np
 st.title('Movie Recommendation System')
 
 # movies_data = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\movies_data.pkl"
-# similarity_file = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\similarity.pkl"
+similarity_file = "https://drive.google.com/file/d/1AMh3h8aVglbt_rHVWWxoi2rs-MaBlyEr/view?usp=share_link"
 
 
 movie_df = pickle.load(open('movies_data.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = pickle.load(open(similarity_file, 'rb'))
 list_of_movie = np.array(movie_df['title'])
 
 option = st.selectbox(
