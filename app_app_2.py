@@ -5,12 +5,12 @@ import numpy as np
 
 st.title('Movie Recommendation System')
 
-movies_data = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\movies_data.pkl"
-similarity_file = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\similarity.pkl"
+# movies_data = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\movies_data.pkl"
+# similarity_file = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\similarity.pkl"
 
 
-movie_df = pickle.load(open(movies_data, 'rb'))
-similarity = pickle.load(open(similarity_file, 'rb'))
+movie_df = pickle.load(open(movies_data.pkl, 'rb'))
+similarity = pickle.load(open(similarity.pkl, 'rb'))
 list_of_movie = np.array(movie_df['title'])
 
 option = st.selectbox(
