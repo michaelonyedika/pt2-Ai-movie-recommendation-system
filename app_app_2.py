@@ -6,7 +6,7 @@ import numpy as np
 st.title('Movie Recommendation System')
 
 # movies_data = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\movies_data.pkl"
-similarity_file = "https://drive.google.com/file/d/1AMh3h8aVglbt_rHVWWxoi2rs-MaBlyEr/view?usp=share_link"
+similarity_file = "https://github.com/michaelonyedika/pt2-Ai-movie-recommendation-system/blob/main/similarity.pkl"
 
 
 movie_df = pickle.load(open('movies_data.pkl', 'rb'))
