@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-st.title('Movie Recommendation System')
+st.title('Movie Recommendation System') 
 
 # movies_data = r"C:\Users\CELESTINE TYJC\Desktop\Michael python file\Recommend System\recom_sys_siddhardhan\movies_data.pkl"
 similarity_file = "https://github.com/michaelonyedika/pt2-Ai-movie-recommendation-system/blob/main/similarity.pkl"
